@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(146, 221, 226);
+    min-height: 100vh;
+    overflow: hidden;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+.head{
+    margin-bottom: 30px;
+}
+.clock{
+    display: flex;
+    justify-content: space-around;
+}
+.year, .month, .week, .day, .hour, .minute, .second, .milisecond{
+    margin: 20px;
+    text-align: center;
+}
+h3{
+    margin-top: 20px;
+}
+p{
+    font-size: 20px;
+}
