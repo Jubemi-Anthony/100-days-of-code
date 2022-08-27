@@ -1,0 +1,303 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins, Rubik, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(47, 40, 30);
+    background-color: rgb(255, 254, 254);
+    text-size-adjust: 100%;
+    margin: 0px;
+}
+.main-nav{
+    padding: 10px 6% 20px 6%;
+    background-color: rgb(235, 162, 174);
+}
+.list{
+    margin-left: 38%;
+}
+.nav-a{
+    font-size: 14px;
+    font-weight: 520;
+}
+.nav-item :hover{
+    color: orange;
+    transition: ease 0.5s;
+}
+.in-s{
+    background-color: none;
+    color: black;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border-color: skyblue;
+    border-radius: 3px;
+    padding: 10px 25px;
+}
+.up-s{
+    background-color: orange;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border-color: orange;
+    padding: 10px 25px;
+    border-radius: 3px;
+    margin-right: 0;
+}
+.gradient{
+    padding-top: 10%;
+    margin-bottom: 60px;
+    background: linear-gradient(rgb(235, 162, 174), rgb(235, 162, 174, 0.8), rgb(235, 162, 174, 0.6), rgb(235, 162, 174, 0.4), rgb(235, 162, 174, 0.2), rgb(235, 162, 174, 0.1));
+    border-bottom-left-radius: 48%;
+    border-bottom-right-radius: 48%;
+}
+h1{
+    color: rgb(47, 40, 30);
+    font-family: Poppins, Rubik, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.2;
+}
+.tools{
+    font-size: 20px;
+    margin: 30px 0 40px 0;
+}
+.fw-bold{
+    font-weight: 700;
+}
+.fs-9{
+    font-size: 2.88651rem;
+}
+.get{
+    background-color: orange;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 17px;
+    border-color: orange;
+    padding: 15px 30px;
+    border-radius: 3px;
+    margin-right: 0;
+}
+.watch{
+    background-color: none;
+    color: orange;
+    text-decoration: underline;
+    margin-right: 20px;
+    font-size: 18px;
+    border-color: none;
+    padding: 15px 30px;
+    border-radius: 3px;
+    margin-right: 0;
+}
+.body-img{
+    width: 99%;
+    margin: auto;
+}
+#first{
+    padding-bottom: 5%;
+    width: 90%;
+    margin: auto;
+}
+#design, #effortless, #super, #strategies{
+    padding-top: 7%;
+}
+.design h1{
+    text-align: center;
+    width: 60%;
+    font-size: 50px;
+    margin: auto;
+}
+.bot{
+    text-align: center;
+    margin: 60px 0;
+}
+.now{
+    background-color: orange;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    border-color: orange;
+    padding: 12px 24px;
+    border-radius: 3px;
+    margin-bottom: 100px;
+}
+.validation{
+    font-weight: bold;
+}
+#second, #third, #fourth{
+    margin-bottom: 100px;
+}
+#second ul, #fourth ul, .quick ul{
+    list-style: none;
+    padding: 0;
+}
+#third ul{
+    padding: 0;
+    list-style: url(../images/tick.png);
+}
+
+.shrink{
+    width: 90%;
+    margin: auto;
+}
+.gradientD{
+    padding-top: 60px;
+    background: linear-gradient( rgb(235, 162, 174, 0.1), rgb(235, 162, 174, 0.2),  rgb(235, 162, 174, 0.4),rgb(235, 162, 174, 0.6), rgb(235, 162, 174, 0.8), rgb(235, 162, 174) );
+    border-top-left-radius: 48%;
+    border-top-right-radius: 48%;
+}
+#hero{
+    width: 50%;
+    margin: auto;
+    margin-top: 8%;
+    text-align: center;
+    margin-bottom: 12%;
+}
+#rot{
+    color: rgb(99, 119, 185);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#plain, #plainb{
+    background-color: none;
+    border: none;
+}
+.jube{
+    padding-top: 20px;
+}
+#fifth{
+    padding-bottom: 200px;
+    border-bottom: 1px solid rgb(156, 163, 187);
+}
+#sixth{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(156, 163, 187);
+}
+.quick a{
+    text-decoration: none;
+    color: rgb(47, 40, 30);
+}
+.quick a:hover{
+    color: orange;
+    transition: ease 0.5s;
+}
+.quick p{
+    font-size: 23px;
+}
+.quick ul li{
+    margin-bottom: 5px;
+}
+.noe{
+    background-color: orange;
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+    border-color: orange;
+    padding: 5px 24px;
+    border-radius: 3px;
+    margin-bottom: 100px;
+}
+.noe :hover{
+    background-color: rgb(121, 82, 9);
+    transition: ease 0.5s;
+}
+.brush input{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(156, 163, 187);
+    border-radius: 9px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 1px;
+}
+
+@media(max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        width: 70%;
+    }
+    .main-logo{
+        width: 60%;
+    }
+    .body-img{
+        width: 70%;
+        margin: auto;
+    }
+    .list{
+        border-top: solid 1px rgb(156, 163, 187);
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .gradient{
+        padding-top: 20%;
+        margin-bottom: 0px;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        text-align: center;
+    }
+    .design h1{
+        text-align: center;
+        width: 80%;
+        font-size: 40px;
+        overflow-wrap: break-word;
+    }   
+    .shrink{
+        width: 100%;
+        margin-left: 7%;
+    }
+    .shrank{
+        width: 80%;
+    }
+    .gradientD{
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    #hero{
+        width: 100%;
+        margin-bottom: 0%;
+    }
+
+    #fifth h5{
+        width: 80%;
+    }
+    #fifth img{
+        padding-top: 20px;
+    }
+    #last{
+        display: flex;
+        flex-direction: column;
+        width: 50%
+    }
+    #last form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .brush input{
+        padding: 10px 0px;
+        margin-bottom: 10px;
+        border: 1px solid rgb(156, 163, 187);
+        border-radius: 9px;
+    }
+    .noe{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding: 20px 1px;
+    }
+    .f-left{
+        margin-bottom: 20px;
+    }
+}
