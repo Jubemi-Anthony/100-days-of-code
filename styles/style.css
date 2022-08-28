@@ -1,0 +1,314 @@
+body {
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    font-weight: normal;
+    color: #777;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.main-nav{
+    /* background-color: rgb(255, 0, 0); */
+    background: linear-gradient(to right, red , rgb(218, 79, 79));
+    padding: 20px 7% 20px 7%;
+}
+.main-nav ul{
+    margin-left: 28%;
+}
+.nav-item{
+    margin-right: 20px;
+}
+.navbar-brand{
+    color: white;
+    font-weight: 600;
+}
+.nav-link{
+    color: white;
+}
+.nav-bot, .btn-1{
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 8px 20px;
+    font-size: 15px;
+    background-color: none;
+    color: white;
+}
+.btn-2, .demo{
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 8px 20px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    margin-left: 5px;
+}
+.house{
+    background: linear-gradient(to right, red , rgb(218, 79, 79));
+}
+.shrank h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.sec-1{
+    padding-top: 20%;
+    color: white;
+    padding-bottom: 20%;
+}
+.sec-1 p{
+    margin-bottom: 30px;
+}
+.shrank{
+    width: 90%;
+    text-align: left;
+}
+.shrink{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.shrink h1, h1{
+    font-weight: 700;
+    font-size: 38px;
+    color: black;
+}
+.card-1{
+    text-align: center;
+}
+h5{
+    font-weight: bold;
+    color: black;
+    margin: 10px 0px;
+}
+h6, h4{
+    font-weight: bold;
+    color: black;
+}
+.card-1 img{
+    border: 1px solid grey;
+    padding: 10px;
+}
+.hello{
+    width: 100%;
+    background-color: white;
+}
+.sec-2, .sec-4{
+    margin-bottom: 10%;
+}
+.home{
+    background-color: rgba(255, 0, 0, 0.1);
+}
+.sec-3{
+    padding: 10% 0%;
+}
+.four-btns{
+    margin-bottom: 5%;
+}
+.four-btns button{
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.four-btns .unique{
+    background: linear-gradient(to right, rgb(255, 0, 0, 0.6) , rgb(255, 0, 0, 0.3) );
+}
+.left-3 h1{
+    width: 70%;
+    margin-bottom: 20px;
+}
+.left-3 p{
+    width: 90%;
+    margin-bottom: 20px;
+}
+.left-3 button, .card-but button{   
+    background: linear-gradient(to right, rgb(255, 0, 0, 0.6) , rgb(255, 0, 0, 0.3) );
+    color: white;
+    border-width: 0;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+.stretch{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.sec-4{
+    text-align: center;
+}
+.stretch p{
+    width: 50%;
+    margin: auto;
+}
+.card-2{
+    border: 1px solid rgb(206, 201, 201);
+    border-radius: 5px;
+}
+.card-up{
+    border-bottom: 1px solid rgb(206, 201, 201);
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 30px 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+.card-2 ul{
+    text-align: center;
+}
+.card-2 li{
+    padding-top: 30px;
+}
+.card-down{
+    border-width: 0px;
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 60px 60px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+.dollar{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.number{
+    font-weight: 700;
+    font-size: 60px;
+    color: black;
+}
+.month{
+    text-align: left;
+    margin-left: 5px;
+}
+.push{
+    width: 90%;
+    margin-left: 10%;
+}
+.hsup{
+    width: 100%;
+    margin-right: 10%;
+}
+.bon{
+    width: 100%;
+}
+.sec-9{
+    margin-top: 5%;
+    padding-top: 1%;
+    color: white;
+    padding-bottom: 1%;
+}
+.bin{
+    padding: 8% 0%;
+    background-color: rgb(94, 6, 6);
+}
+.sec-7{
+    padding: 1% 0;
+}
+footer h4{
+    color: white;
+}
+@media(max-width:800px){
+    body{
+        overflow-x: hidden;
+    }
+    .main-nav{
+        background: rgb(94, 6, 6);
+        padding: 20px 0% 20px 0%;
+    }
+    .main-nav ul{
+        margin-left: 0%;
+    }
+    .nav-item{
+        margin-right: 0px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid rgb(110, 107, 107);
+    }
+    .nav-link{
+        color: rgb(110, 107, 107);
+    }
+    .shrank h1{
+        font-size: 25px;
+    }
+    .body-img{
+        width: 70%;
+        margin-top: 30px;
+    }
+    .vanish{
+        display: none;
+    }
+    .shrank{
+        width: 100%;
+        text-align: center;
+    }
+    section{
+        text-align: center;
+    }
+    .left-3 h1{
+        width: 80%;
+        margin: auto;
+    }
+    .shrink h1, h1{
+        font-size: 25px;
+    }
+    .card-1{
+        width: 70%;
+        margin: auto;
+    }
+    .home{
+        background-color: rgba(255, 0, 0, 0.1);
+    }
+    .four-btns{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0px;
+    }    
+    .four-btns button{
+        width: 80%;
+        height: 70px;
+        margin-bottom: 20px;
+    }
+    .card-2{
+       width: 80%;
+       margin: auto;
+       margin-bottom: 30px;
+    }
+    .card-up{
+        padding: 30px 40px;
+    }
+    .card-2 li{
+        padding-top: 20px;
+    }
+    .card-down{
+        padding: 40px 40px;
+        width: 70%;
+    }
+
+    .bon{
+        width: 100%;
+    }
+    .bin{
+        padding: 8% 0%;
+        background-color: rgb(94, 6, 6);
+    }
+    footer h4{
+        color: white;
+    }
+}
