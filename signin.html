@@ -1,0 +1,196 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+             :root{
+            --primary: hsl(0, 0%, 0%, 0.65);
+            --secondary: hsl(0, 0%, 0%, 0.65);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        body{
+            background: linear-gradient(135deg, var(--primary), var(--secondary)),
+                        url("Images/background.jpg") no-repeat;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 680px;
+        }
+        form{
+            min-height: 550px;
+            box-sizing: border-box;
+            padding: 0 5%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, .75);
+            width: 450px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 4px;
+            margin-left: 330px;
+            height: 500px;
+            margin: 0 auto;
+        }
+        .placeholder{
+            width: 145px;
+            height: 16px;
+        }
+        img{
+        	width: 100px;
+        }
+        input{
+            border: 3px;
+            width: 335px;
+            padding:16px 20px 0px;
+            font-size: 16px;
+            border-radius: 1px;
+            box-shadow: 10px;
+            height: 50px;
+            background-color: rgba(128, 128, 128, 0.281);
+            border-radius: 6px;
+            border-right: 140px;
+        }
+        .needhelp{
+            padding: 2px 0px 0px;
+            font-size: 0.7px white;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        h2{
+            margin: 0px 0px 28px;
+            font-size: 32px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            margin-top: 50px;
+            margin-right: 200px;
+        }
+        .last{
+            text-align: left;
+            color: white;
+            font-size: 13px;
+        }
+        .lasta{
+            color: rgb(0, 68, 255);
+        }
+        .heading{
+            width: 375px;
+            height: 45px;
+            padding-top: 20px;
+            margin-top: 10px;
+            margin-left: 40px;
+        }
+        button{
+            background-color: red;
+            color: white;
+            width: 337px;
+            margin: 24px 0px 12px;
+            height: 50px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500px;
+        }
+        .second{
+            color: white;
+            display: flex;
+            margin-top: 70px;
+            
+        }
+        .remb{
+            color: #b3b3b3;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-right: 0px;
+        }
+        .bottom{
+            display: flex;
+            justify-content: space-between;
+        }
+        .main{
+            height: 95%;
+        }
+        @media(max-width: 800px){
+           .main{
+           	width: 90%;
+           	margin: auto;
+           }
+           .heading{
+           	align-items: left;
+           }
+            form{
+            	display: flex;
+            	align-items: center;
+            min-height: 350px;
+            padding: 0 5%;
+            width: 90%;
+            margin: auto;
+        }
+        input{
+            width: 80%;
+        }
+        
+        h2{
+            font-size: 20px;
+        }
+        .heading{
+            width: 80%;
+            height: 45px;
+            padding-top: 20px;
+            margin: auto;
+            margin-top: 10px;
+            text-align: center;
+        }
+        button{
+            
+            width: 50%;
+            margin: 24px 0px 12px;
+            height: 30px;
+        }
+        .second{
+            margin-top: 70px;  
+        }
+        .main{
+            height: 95%;
+        }
+        }
+</style>
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+	        <a href="Netflixpage.html"><img src="Images/logo.png"></a>
+	    </div>
+	        <form action="">
+	            <h2>Sign In</h2>
+	            <br>
+	            <input type="email" name="email" placeholder="Email or phone number" id="">
+	       <br>
+	            <input type="password" name="password" placeholder="Password" id="">
+	       <br>
+	            <button>Sign In</button>
+	       <div class="bottom">
+	            <label for="">
+	                <span class="remb">Remember me</span>
+	            </label>
+	            <div style="font-size: 13px;" class="needhelp">
+	                <a style="color: gray;" href="">Need help?</a>
+	            </div>
+	        </div>
+	        <br>
+	        <div class="second">
+	            <p style="color: gray;">New to Netflix?</p>
+	        <a style="color: white;" href="week2day4.2.html">Sign up now.
+	        </a>
+	        </div>
+	        <br>
+	        <div class="last">
+	        <p style="color: gray;">This page is protected by Google reCAPTCHA to ensure you're not a bot. <a style="color: rgb(0, 102, 255);" href="">Learn more.</a> </p>
+	        </div>
+	        </form>
+    	</div>
+</body>
+</html>
