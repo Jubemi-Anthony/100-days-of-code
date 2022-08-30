@@ -1,0 +1,32 @@
+*{
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    background: linear-gradient(to right, green, yellow , purple);
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+input{
+    padding: 25px;
+    border-radius: 10px;
+}
+button :active{
+    transform: scale(0.8);
+}
+/* ACTUALLY UNNECCESSARY LOL */
+span{
+    color: black;
+}
