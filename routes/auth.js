@@ -4,7 +4,7 @@ const router = express.Router()
 const jwt = require("jsonwebtoken")
 
 router.post('/newPerson', async (req, res) =>{
-    // TO COLLECT DATA FROM THE USER
+    // TO COLLECT DATA FROM THE Person
     const {fullName, email, password, phoneNumber, gender} = req.body
 
     //CHECKING FOR REQUIRED FIELDS
@@ -83,7 +83,7 @@ router.post('/login', async (req, res) =>{
     }
 })
 
-router.post('/getUser', async (req, res) =>{
+router.post('/getPerson', async (req, res) =>{
     const {fullName} = req.body;
     if(!fullName){
         return res.status(400).send({status: "Error", msg: "Enter name"});
@@ -99,7 +99,7 @@ router.post('/getUser', async (req, res) =>{
     }
 })
 
-router.post('/editUser', async (req, res) =>{
+router.post('/editPerson', async (req, res) =>{
     const {fullName, height, hobbies, houses, isMarried} = req.body;
     if(!fullName){
         return res.status(400).send({status: "Error", msg: "Enter name"});
@@ -123,7 +123,7 @@ router.post('/editUser', async (req, res) =>{
     }
 })
 
-router.post('/deleteUser', async (req, res) =>{
+router.post('/deletePerson', async (req, res) =>{
     const {fullName} = req.body;
     if(!fullName){
         return res.status(400).send({status: "Error", msg: "Enter name"});
@@ -153,7 +153,7 @@ router.post('/update', async (req, res) =>{
 
 
         const ages = await Person.findOneAndUpdate({_id: person._id}, {age: age, $inc: {houses: 1} }, {new: true}).lean();
-        // To find all users less than 30
+        // To find all Persons less than 30
         // const person = await Person.find({age: $lt:30})
 
         return res.status(200).send({status: "OK", msg: "Success", ages})
@@ -177,7 +177,7 @@ router.post('/updateId', async (req, res) =>{
 
 
         const ages = await Person.findByIdAndUpdate({_id: person._id}, {age: age, $inc: {houses: 1} }, {new: true}).lean();
-        // To find all users less than 30
+        // To find all Persons less than 30
         // const person = await Person.find({age: $lt:30})
 
         delete ages._id
