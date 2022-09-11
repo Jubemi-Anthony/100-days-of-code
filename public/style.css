@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-center{
+    background-color: rgb(248, 235, 122);
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px #000;
+}
+.welcome{
+    background-color: rgb(248, 235, 122);
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 0 10px #000;
+    width: 80%; 
+}
+.welcome-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-center h1, .welcome h1{
+    margin-bottom: 30px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-div{
+    margin-top: 20px;
+    gap: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.form-div input{
+    padding: 18px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+.form-div label{
+    font-size: 20px;
+    margin-top: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-center button{
+    width: 30%;
+    margin: 20px 0px;
+    padding: 10px;
+    background-color: #000;
+    color: gold;
+    border: 2px solid gold;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.form-center p, .welcome p{
+    font-size: 20px;
+}
+.welcome a{
+    color: #000;
+    font-size: 23px;
+    margin: 0px 10px;
+}
+.form-center a{
+    color: #000;
+    margin-left: 20px;
+    font-size: 23px;
+}
