@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="container">
+        <section class="sec-1">
+            <h1>ADD A TASK !</h1>
+            <div class="task-input">
+                <div id="form">
+                    <input id="input" type="text" placeholder="Add a task">
+                    <button id="add" onclick="addTask()">Add Task</button>
+                </div>
+            </div>
+        </section>
+        <section class="sec-2">
+            <div class="left">
+                <div class="task-holder"></div>
+            </div>
+            <div class="right">
+                <div id="counter">
+                    <h1 id="task-count"></h1>
+                    <h3 id="task-show"></h5>
+                </div>
+                <img id="todo-image" src="./right.png" alt="todo list">
+            </div>
+        </section>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
