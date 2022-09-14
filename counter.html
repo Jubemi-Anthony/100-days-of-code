@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<style>
+    body{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    button{
+        border: none;
+        padding: 20px;
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.274);
+    }
+    button:nth-child(1){
+        background-color: red;
+    }
+    button:nth-child(2){
+        background-color: blue;
+    }
+    button:nth-child(3){
+        background-color: green;
+    }
+    .buttons{
+        display: flex;
+        gap: 10px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .container{
+        border: 1px solid black;
+        padding: 30px;
+        border-radius: 30px;
+        background-color: blueviolet;
+        box-shadow: 3px 3px 30px black;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1 id="number"></h1>
+        <div class="buttons">
+            <button onclick="decrease()" id="decrease">Decrease</button>
+            <button onclick="reset()" id="reset">Reset</button>
+            <button onclick="increase()" id="increase">Increase</button>
+        </div>
+    </div>
+</body>
+
+<script>
+    const num = document.querySelector('#number')
+    let x = 0;
+    num.textContent = x;
+    const decrease = ()=>{
+        x = x-1;
+        num.textContent = x;
+    }
+    const increase = ()=>{
+        x = x+1;
+        num.textContent = x;
+    }
+    const reset = ()=>{
+        x = 0;
+        num.textContent = x;
+    };
+</script>
+</html>
