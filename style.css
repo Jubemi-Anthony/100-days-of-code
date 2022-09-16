@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url(./images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#help{
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    background-color: orange;
+    font-weight: bold;
+}
+#play{
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    background-color: green;
+    font-weight: bold;
+}
+img{
+    width: 150px;
+}
+.container{
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px black;
+    background: 
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(./images/download.jpg);
+}
+.container h1{
+    font-size: 2rem;
+    margin: 20px 0px;
+}
+.score{
+    display: flex;
+    justify-content: space-around;
+}
+.score p, .ask label{
+    font-size: 1.3rem;
+}
+.score h1{
+    font-size: 3rem;
+}
+.ask{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.inputs, .hands{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.inputs input{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    text-transform: uppercase;
+}
+.help{
+    position: absolute;
+    border: 1px solid black;
+    background-color: orange;
+    color: black;
+    text-align: center;
+    width: 400px;
+    border-radius: 20px;
+}
+.help-case{
+    position: relative;
+}
+.help img{
+    width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.rotate{
+    rotate: 360deg;
+    transition: 2s;
+}
+.bot{
+    display: flex;
+    justify-content: space-around;
+}

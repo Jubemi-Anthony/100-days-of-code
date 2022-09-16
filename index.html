@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="help hidden">
+        <div class="help-case">
+            <h1>RULES</h1>
+            <p>Rock breaks Scissors <br> Scissors cuts Paper <br> Paper Covers Rock</p>
+            <h1>HOW TO PLAY</h1>
+            <p>Enter either R, P, S for Rock paper and scissors respectively. <br>
+            Make sure the box for 2 players is checked if you want to play with someone.
+            After picking a letter, click on play to start the game.
+            </p>
+            <img id="cancel" src="./images/x.svg" alt="cancel">
+        </div>
+    </div>    
+    <section class="container">
+        <h1>ROCK PAPER SCISSORS</h1>
+        <div class="score">
+            <div class="player">
+                <p>Player1:</p>
+                <h1 id="player1"></h1>
+            </div>
+            <div class="computer">
+                <p id="label2">Computer:</p>
+                <h1 id="player2"></h1>
+            </div>
+        </div>
+        <div class="ask">
+            <p id="para"></p>
+            <div>
+                <div>
+                    <label for="check">Player2</label>
+                    <input id="check" name="check" type="radio">
+                </div>
+                <div>
+                    <label for="check2">Computer</label>
+                    <input id="check2" name="check" type="radio">
+                </div>
+            </div>
+        </div>
+        <div class="game">
+            <div class="hands">
+                <div id="img1"></div>
+                <div id="img2"></div>
+            </div>
+            <div class="bot">
+                <button id="play">PLAY</button>
+                <button id="help">Help ?</button>
+            </div>
+            <div class="inputs">
+                <input id="input1" type="password">
+                <input class="hidden" id="input2" type="password">
+            </div>         
+        </div>
+    </section>
+</body>
+<script src="index.js"></script>
+</html>
