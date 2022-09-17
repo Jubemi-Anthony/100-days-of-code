@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Navbar</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="check">
+        <label class="tog" for="check"><img width="30px" src="./images/menu-button.svg" alt="check"></label>
+        <label><img class="logo" src="./images/logo.png" alt="logo"></label>
+        <nav class="nav">
+             <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><button>Projects</button></li>
+                <li><button>Page Info</button></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+            <button id="mail">
+                <img class="icon" src="./images/star.svg" alt="star">
+                Send a mail
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="top">
+                <h1><span class="blue">Multi</span> Unit Converter</h1>
+            <p>
+                This is a practical fun project done by 
+                <a href="">Jubemi Anthony Pajiah</a>
+                 and <a href="">Omaretsola Tega</a>.
+                  This interface of this site was built with
+                   only HTML and CSS and all other functionalities
+                    were done with Javascript.
+            </p>
+            </div>
+            <div class="selects">
+                <div class="unit">
+                    <label for="units">Select Unit</label>
+                    <select name="units" id="units">
+                        <option value="Length">Length</option>
+                        <option value="Weight">Weight</option>
+                        <option value="Temperature">Temperature</option>
+                        <option value="Pressure">Pressure</option>
+                    </select>
+                </div>
+                <div class="choose">
+                    <div class="left">
+                        <label>Input</label>
+                        <input type="number">
+                    </div>
+                    <div class="center">
+                        <label>Choose Unit</label>
+                        <div class="one">
+                            <select name="distance" id="distance">
+                                <option value="Meter">Meter</option>
+                                <option value="Yard">Yard</option>
+                                <option value="Centi-Meter">Centi-Meter</option>
+                                <option value="Mili-Meter">Mili-Meter</option>
+                                <option value="Kilo-Meter">Kilo-Meter</option>
+                                <option value="Inch">Inch</option>
+                                <option value="Foot">Foot</option>
+                                <option value="Mile">Mile</option>
+                            </select>
+                            <select class="hidden" name="weight" id="weight">
+                                <option value="Gram">Gram</option>
+                                <option value="Kilo-Gram">Kilo-Gram</option>
+                                <option value="Pound">Pound</option>
+                                <option value="Metric-Ton">Metric-Ton</option>
+                                <option value="Ounce">Ounce</option>
+                                <option value="Carat">Carat</option>
+                            </select>
+                            <select class="hidden" name="temperature" id="temperature">
+                                <option value="Celcius">Celcius</option>
+                                <option value="Fahrenheit">Fahrenheit</option>
+                                <option value="Kelvin">Kelvin</option>
+                                <option value="Rankine">Rankine</option>
+                            </select>
+                            <select class="hidden" name="pressure" id="pressure">
+                                <option value="Pascal">Pascal</option>
+                                <option value="Torr">Torr</option>
+                                <option value="Barr">Barr</option>
+                                <option value="Standard Atmospheric Pressure">Standard Atmospheric Pressure</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button id="conv">
+                            <img class="icon" src="./images/arrow-repeat.svg" alt="convert">
+                            Convert
+                        </button>
+                    </div> 
+                </div>
+            </div>
+            <div class="results">
+                <img id="cancel" src="./images/x-circle-fill.svg" alt="cancel">
+                <div class="result">
+                    <p class="answer">200.544</p>
+                    <p class="unitRes">Inch</p>
+                </div>
+                <div class="result">
+                    <p class="answer">200.544</p>
+                    <p class="unitRes">Inch</p>
+                </div>
+                <div class="result">
+                    <p class="answer">200.544</p>
+                    <p class="unitRes">Inch</p>
+                </div>
+                <div class="result">
+                    <p class="answer">200.544</p>
+                    <p class="unitRes">Inch</p>
+                </div>
+                <div class="result">
+                    <p class="answer">200.544</p>
+                    <p class="unitRes">Inch</p>
+                </div>
+                <div class="result">
+                    <p class="answer">200.544</p>
+                    <p class="unitRes">Inch</p>
+                </div>
+                <div class="result">
+                    <p class="answer">200.544</p>
+                    <p class="unitRes">Inch</p>
+                </div>
+                <div class="result">
+                    <p class="answer">200.544</p>
+                    <p class="unitRes">Inch</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

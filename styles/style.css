@@ -1,0 +1,222 @@
+:root{
+    --main: #2648f6;
+    --text: rgb(119, 116, 116);
+    --light: rgb(216, 213, 213);
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: var(--text);
+    font-size: 15px;
+}
+select, input{
+    border: 1px solid;
+    border-color: var(--light);
+    color: var(--text);
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.icon{
+    filter:invert(1);
+}
+.hidden{
+    display: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+    font-size: 15px;
+}
+#check{
+    display: none;
+}
+.tog{
+    position: absolute;
+    right: 3%;
+    top: 15px;
+    display: none;
+}
+.blue{
+    color: var(--main);
+}
+.logo{
+    width: 300px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 4%;
+    align-items: center;
+    width: 60%;
+    margin-left: auto;
+}
+.links{
+    display: flex;
+    gap: 50px;
+}
+.links button{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+#mail, #conv{
+    background-color: var(--main);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 4%;
+}
+.top{
+    width: 70%;
+    margin: auto;
+    line-height: 1.5em;
+    margin-bottom: 25px;
+}
+.top h1{
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.unit{
+    display: flex;
+    margin: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+}
+.choose{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.left, .center{
+    display: flex;
+    flex-direction: column;
+}
+.choose label{
+    font-size: 13px;
+    text-align: left;
+    margin-bottom: 3px;
+}
+#conv{
+    margin-top: 13px;
+}
+.results{
+    background-color: #fdfdfd;
+    font-weight: bold;
+    color: black;
+    border-radius: 15px;
+    width: 40%;
+    margin: auto;
+    padding: 5px 25px 20px 25px;
+    font-size: 13px;
+    position: relative;
+}
+.result{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#cancel{
+    position: absolute;
+    top: 2;
+    right: 2;
+}
+@media(max-width: 800px){
+  
+    .tog{
+        display: block;
+    }
+    .logo{
+        width: 80%;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .nav{
+        position: fixed;
+        background-color: var(--light);
+        height: 100%;
+        width: 100%;
+        left: -100%;
+        z-index: 5;
+        transition: 1s;
+        margin-top: 47px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav ul{
+       flex-direction: column;
+       text-align: center;
+    }
+    .nav ul li{
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    #check:checked ~ .nav, .logo{
+        left: 0;
+    }
+    .container{
+        width: 85%;
+    }
+    .top{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .top h1{
+        font-size: 2.1rem;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 1.5em;
+    }
+    .unit{
+        flex-direction: column;
+        margin: 10px 0px;
+        gap: 10px;
+    }
+    .choose{
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .choose label{
+        text-align: center;
+    }
+    #conv{
+        margin-top: 5px;
+    }
+    .results{
+        width: 90%;
+    }
+}
